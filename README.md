@@ -16,6 +16,10 @@ This project allows users to view, book, and manage events online. It includes a
 - **Frontend:** HTML, CSS, JavaScript  
 - **Database:** SQL Server (optional)
 
+🎥 Project Explanation Video
+👉 Watch the project demo video here:
+ https://drive.google.com/file/d/1j9oetCv3uM1B4rTDLwpL-9BLOmm1Zp3y/view?usp=drivesdk
+
 ## Folder Structure
 - `Controllers` – Handles user requests and routes  
 - `Models` – Business logic and data structures  
