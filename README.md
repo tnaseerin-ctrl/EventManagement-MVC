@@ -2,6 +2,42 @@
 
 A web-based Event Management System built using **ASP.NET MVC**.
 
+ ## Folder & File Map:
+-EventManagement (Project Root)
+│
+├── Controllers
+│   ├── AccountController.cs      ← Handles Login
+│   ├── BookingController.cs      ← Handles Event Booking, Final Summary, All Bookings, Cancel
+│   ├── FoodController.cs         ← Handles Food Booking
+│   └── LightingController.cs     ← Handles Lighting Booking
+│
+├── Models
+│   ├── BookingMaster.cs          ← Stores BookingNo, Username, BookingDate, Approval
+│   ├── BookingModel.cs           ← Event booking details: EventType, VenueType, NoOfGuest
+│   ├── FoodModel.cs              ← Food details: FoodType, MealType, Dish
+│   └── LightingModel.cs          ← Lighting details: LightType, Lights
+│
+├── Views
+│   ├── Account
+│   │   └── Login.cshtml          ← Login Page
+│   ├── Booking
+│   │   ├── BookEvent.cshtml      ← Event Booking Form
+│   │   ├── FinalSummary.cshtml   ← Final Summary Page
+│   │   └── AllBookings.cshtml    ← Display All Bookings
+│   ├── Food
+│   │   └── BookFood.cshtml       ← Food Booking Form
+│   └── Lighting
+│       └── BookLighting.cshtml  ← Lighting Booking Form
+│
+├── Content
+│   ├── site.css                  ← Styling for pages
+│   └── Images
+│       ├── Event.jpeg            ← Event Image
+│       ├── Food.jpeg             ← Food Image
+│       └── Lighting.jpeg         ← Lighting Image
+│
+└── Views/Shared
+    └── _Layout.cshtml           ← Master Page with Header, Footer, CSS, @RenderBody()
 ## Description
 This project allows users to view, book, and manage events online. It includes an admin dashboard for managing events and bookings, and a user-friendly interface for visitors.  
 
@@ -16,7 +52,7 @@ This project allows users to view, book, and manage events online. It includes a
 - **Frontend:** HTML, CSS, JavaScript  
 - **Database:** SQL Server (optional)
 
-🎥 Project Explanation Video
+## 🎥 Project Explanation Video:
  -👉 Watch the project demo video here:
  - https://drive.google.com/file/d/1j9oetCv3uM1B4rTDLwpL-9BLOmm1Zp3y/view?usp=drivesdk
 
